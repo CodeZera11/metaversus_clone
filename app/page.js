@@ -4,6 +4,7 @@ import Explore from "@/sections/Explore";
 import GetStarted from "@/sections/GetStarted";
 import Hero from "@/sections/Hero";
 import WhatsNew from "@/sections/WhatsNew";
+import World from "@/sections/World";
 import React from "react";
 
 const Page = () => {
@@ -21,6 +22,7 @@ const Page = () => {
         <div className="gradient-03 z-0" />
         <WhatsNew />
       </div>
+      <World />
     </div>
   );
 };

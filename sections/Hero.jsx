@@ -46,7 +46,7 @@ const Hero = () => {
 
           <a href="#explore">
             <motion.div
-              variants={rotate(1.2)}
+              // variants={rotate(1.2)}
               className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10"
             >
               <Image
