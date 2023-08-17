@@ -11,8 +11,6 @@ import ExploreCard from "@/components/ExploreCard";
 const Explore = () => {
   const [active, setActive] = useState("world-2");
 
-  console.log(active);
-
   return (
     <section className={styles.paddings} id="#explore">
       <motion.div

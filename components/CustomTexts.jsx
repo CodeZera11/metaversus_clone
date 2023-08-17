@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
     variants={textContainer}
-    className={`font-normal ${textStyles} text-secondary-white text-[14px]`}
+    className={`font-normal ${textStyles} text-[#C7C7C7] text-[14px]`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
